@@ -12,12 +12,12 @@ Otherwise, you can just download, the Python file, it will download ressources f
 # How to use
 ## Usage
 The command syntax is:<br>
-  smsdb2html <sms.db> <output dir> [-a <attachments dir> --copy-attachments]<br><br>
+  smsdb2html \<sms.db> \<output dir> [-a \<attachments dir> --copy-attachments]<br><br>
    
- - <sms.db> is the path to the messages database (see Archive iOS messages below)<br>
- - <output dir> is the output folder. It will be created by the software, so it mustn't yet exist. It will contains all HTML, CSS and ressources files.<br>
+ - \<sms.db> is the path to the messages database (see Archive iOS messages below)<br>
+ - \<output dir> is the output folder. It will be created by the software, so it mustn't yet exist. It will contains all HTML, CSS and ressources files.<br>
 Optional:<br>
- - -a <attachments dir> : attachments dir is the folder containing all attachments. If not specified, pictures, videos and other files won't be shown in the html path.
+ - -a \<attachments dir> : attachments dir is the folder containing all attachments. If not specified, pictures, videos and other files won't be shown in the html path.
  - --copy-attachments means the attachments folder will be copied to the output folder. It can be useful if you want your archive to be stored on another disk or access it from another machine. It omitted, the attachments will be local paths, relative to the disk.
 
 ## Archive iOS messages
@@ -28,7 +28,7 @@ Several options are possible:
 #### iOS Backups
 
 The sms.db file has the hash: 3d0d7e5fb2ce288813306e4d4636395e047a3d28.<br>
-So, it will be stored at <Backup>/3d/3d0d7e5fb2ce288813306e4d4636395e047a3d28<br><br>
+So, it will be stored at \<Backup>/3d/3d0d7e5fb2ce288813306e4d4636395e047a3d28<br><br>
     
 Otherwise, you can use my iOS backup utility [iBake](https://github.com/Maxmad68/iBake) in order to make it easier.
 You can retrieve the sms.db file with this command:
