@@ -21,6 +21,37 @@ Optional:<br>
 
 ## Archive iOS messages
 
+To use smsdb2html to archive iOS messages, we need to retrieve the sms.db file.
+Several options are possible:
+
+#### iOS Backups
+
+The sms.db file has the hash: 3d0d7e5fb2ce288813306e4d4636395e047a3d28.
+So, it will be stored at <Backup>/3d/3d0d7e5fb2ce288813306e4d4636395e047a3d28
+    
+Otherwise, you can use my iOS backup utility [iBake](https://github.com/Maxmad68/iBake) in order to make it easier.
+You can retrieve the sms.db file with this command:
+
+    ibake extract <Backup-ID> ~/sms.db -d HomeDomain -f Library/SMS/sms.db
+
+or extract all HomeDomain (sms.db and attachments) with this one:
+
+    ibake extract <Backup-ID> ~/ExtractedHomeDomain -d HomeDomain
+  
+#### iPhone Filesystem
+
+If the device is jailbroken, or if you can access the iOS root filesystem, you will find the messages directory at this location:
+
+    /private/var/mobile/Library/SMS/
+
+The sms.db and attachments folder are located at:
+
+    /private/var/mobile/Library/SMS/sms.db
+    
+    /private/var/mobile/Library/SMS/Attachments/
+
+
+You can copy those files to your computer using SSH, SFTP, or [iFuse](https://github.com/libimobiledevice/ifuse) and then use smsdb2html to archive the conversation.
 
 ## Archive macOS messages
 
