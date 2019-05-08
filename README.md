@@ -1,5 +1,6 @@
 # SMSDB2HTML
-Archive your sms.db messages database as a iOS like web site
+Archive your sms.db messages database as a iOS like designed web site.<br>
+It supports text messages (SMS and iMessages), MMS, pictures and videos, files attachments, vocal messages, GIFs and Animojis/Memojis
 
 # Installation
 To install a full version of SMSDB2HTML, type
@@ -26,8 +27,8 @@ Several options are possible:
 
 #### iOS Backups
 
-The sms.db file has the hash: 3d0d7e5fb2ce288813306e4d4636395e047a3d28.
-So, it will be stored at <Backup>/3d/3d0d7e5fb2ce288813306e4d4636395e047a3d28
+The sms.db file has the hash: 3d0d7e5fb2ce288813306e4d4636395e047a3d28.<br>
+So, it will be stored at <Backup>/3d/3d0d7e5fb2ce288813306e4d4636395e047a3d28<br><br>
     
 Otherwise, you can use my iOS backup utility [iBake](https://github.com/Maxmad68/iBake) in order to make it easier.
 You can retrieve the sms.db file with this command:
