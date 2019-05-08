@@ -1,0 +1,1 @@
+echo "Installing..." && sudo cp smsdb2html.py /usr/local/bin/smsdb2html && sudo chmod +x /usr/local/bin/smsdb2html && sudo rm -r /usr/share/smsdb2html && sudo mkdir /usr/share/smsdb2html/ && sudo cp -R Content /usr/share/smsdb2html/Ressources && echo && echo "Type smsdb2html to start"
