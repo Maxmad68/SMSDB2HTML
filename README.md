@@ -2,6 +2,9 @@
 Archive your sms.db messages database as a iOS like designed web site.<br>
 It supports text messages (SMS and iMessages), MMS, pictures and videos, files attachments, vocal messages, GIFs and Animojis/Memojis
 
+![Chat selector](http://madrau.fr/SMSDB2HTML-Github/screen1.png)<br>
+![Messages](http://madrau.fr/SMSDB2HTML-Github/screen2.png)<br>
+
 # Installation
 To install a full version of SMSDB2HTML, type
 
