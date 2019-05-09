@@ -71,3 +71,5 @@ macOS chat.db works as well as iOS sms.db. This means you can use smsdb2html to 
 For most cases, this command should work:
 
     smsdb2html ~/Library/Messages/chat.db outputDir -a ~/Library/Messages/Attachments
+    
+
