@@ -275,7 +275,7 @@ if __name__ == '__main__':
             try:
                urllib.urlretrieve('https://raw.githubusercontent.com/Maxmad68/SMSDB2HTML/master/Content/%s'%filepath ,os.path.join(ressources_path, filepath))
             except:
-               print ("Can\'t download files. Please check your internet connexion or download ressources from my Github: https://github.com/Maxmad68/SMSDB2HTML')
+               print ("Can\'t download files. Please check your internet connexion or download ressources from my Github: https://github.com/Maxmad68/SMSDB2HTML")
                exit()
          
          
