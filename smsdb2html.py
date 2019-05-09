@@ -272,9 +272,11 @@ if __name__ == '__main__':
          ressources_path = tempfile.mkdtemp(suffix='-smsdb2html')
          files = ['chat.html','glyphs.ttf','index.html','ios7.min.css','style.css']
          for filepath in files:
-            urllib.urlretrieve('https://raw.githubusercontent.com/Maxmad68/SMSDB2HTML/master/Content/%s'%filepath ,os.path.join(ressources_path, filepath))
-         
-         
+            try:
+               urllib.urlretrieve('https://raw.githubusercontent.com/Maxmad68/SMSDB2HTML/master/Content/%s'%filepath ,os.path.join(ressources_path, filepath))
+            except:
+               print ("Can\'t download files. Please check your internet connexion or download ressources from my Github: https://github.com/Maxmad68/SMSDB2HTML')
+               exit()
          
          
 
