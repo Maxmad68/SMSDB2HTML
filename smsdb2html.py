@@ -265,7 +265,7 @@ if __name__ == '__main__':
       
    ressources_path = './Content'
    if not os.path.isdir(ressources_path):
-      ressources_path = '/usr/share/smsdb2html/Ressources'
+      ressources_path = '/usr/local/share/smsdb2html/Ressources'
       if not os.path.isdir(ressources_path):
          print ('Ressources not found, downloading them from the Internet...')
          # Download ressources
